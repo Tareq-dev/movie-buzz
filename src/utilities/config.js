@@ -11,4 +11,11 @@ export const theatresMovieUrl =
   base_url +
   "/discover/movie?primary_release_date.gte=2014-09-15&primary_release_date.lte=2014-10-22" +
   api_key;
-
+export const kidsMovieUrl =
+  base_url +
+  "/discover/movie?certification_country=US&certification.lte=G&sort_by=popularity.desc" +
+  api_key;
+export const dramaMovieUrl =
+  base_url +
+  "/discover/movie?with_genres=18&primary_release_year=2014" +
+  api_key;
