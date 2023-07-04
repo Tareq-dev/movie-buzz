@@ -7,3 +7,11 @@ export const comediesMovieUrl =
   base_url +
   "/discover/movie?with_genres=35&with_cast=23659&sort_by=revenue.desc" +
   api_key;
+export const theatresMovieUrl =
+  base_url +
+  "/discover/movie?primary_release_date.gte=2014-09-15&primary_release_date.lte=2014-10-22" +
+  api_key;
+export const kidsMovieUrl =
+  base_url +
+  "/discover/movie?certification_country=US&certification.lte=G&sort_by=popularity.desc" +
+  api_key;
