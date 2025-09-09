@@ -18,4 +18,4 @@ My movies website is a modern and user-friendly platform designed to provide an 
 
 ## Live demo
 
-https://movie-buzz-silk.vercel.app
+https://movie-buzz-xi.vercel.app
